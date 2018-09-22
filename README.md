@@ -11,6 +11,20 @@ Now that we have been introduced to some difference data types, how to use them,
 
 Let's use our knowledge of variables and conditionals to assign values based on different conditions. Follow the instructions below to properly assign the values.
 
+Let's start out with a somewhat already built-out problem. Below use what you know about numbers and conditionals to assign a value to less_than_50 and follow the directions given in the comments below. Use this as a guide to structuring the rest of the problems in this lab.
+
+
+```python
+number_50 = 50
+less_than_50 = None
+if number_50 > 100:
+    # if number_50 is greater than 100, assign the `less_than_50` variable to the number 100
+elif number_50 < 50:
+    # if number_50 is greater than 50, assign the `less_than_50` variable to the number 50
+else:
+    # else assign the `less_than_50` variable to 49
+```
+
 Below, use conditionals to tell whether it is hot outside or not. If it is hot, assign the string `"It is so hot out!"` to the variable `is_it_hot`. If it is not hot, assign the string `"This is nothing! Bring on the heat."`. For our purposes, anything over `80` degrees is considered hot.
 
 
@@ -30,22 +44,13 @@ day_of_the_week = None
 # conditionals go here
 ```
 
-Next, let's take a string and see if it ends with a certain substring. If it does, assign the variable `ends_with` to either `True` or `False`. For example, we have the string "School" and we want to know if it ends with the sub-string "cool". In this case it does not, so, we would assign `False` to the variable `ends_with`. 
+Finally, let's take a string and see if it ends with a certain substring. If it does, assign the variable `ends_with` to either `True` or `False`. For example, we have the string "School" and we want to know if it ends with the sub-string "cool". In this case it does not, so, we would assign `False` to the variable `ends_with`. 
 
 
 ```python
 string = "Python"
 sub_string = "on"
 ends_with = None
-# conditionals go here
-```
-
-Finally, we will compare two numbers and save the Boolean returned in the variable `result`. Use the value from the result to assign the `bigger_number` variable the number that is bigger. So, if `10` is bigger than 5, then assign `bigger_number` the value `10`. Pretty straight forward, right?
-
-
-```python
-result = 10 > 5
-bigger_number = None
 # conditionals go here
 ```
 
