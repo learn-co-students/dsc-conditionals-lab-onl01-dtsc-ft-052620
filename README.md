@@ -18,10 +18,13 @@ Let's start out with a somewhat already built-out problem. Below use what you kn
 number_50 = 50
 less_than_50 = None
 if number_50 > 100:
+    less_than_50 = 100
     # if number_50 is greater than 100, assign the `less_than_50` variable to the number 100
 elif number_50 < 50:
+    less_than_50 = 50
     # if number_50 is greater than 50, assign the `less_than_50` variable to the number 50
 else:
+    less_than_50 = 49
     # else assign the `less_than_50` variable to 49
 ```
 
@@ -31,6 +34,10 @@ Below, use conditionals to tell whether it is hot outside or not. If it is hot, 
 ```python
 temperature = 85
 is_it_hot = None
+if temperature > 80:
+    is_it_hot = "It is so hot out!"
+elif temperature < 80:
+    is_it_hot = "This is nothing! Bring on the heat."
 # conditionals go here
 ```
 
@@ -41,6 +48,20 @@ For example, if the day is `2`, we would assign `day_of_the_week` the value `"Mo
 ```python
 today_is = 4
 day_of_the_week = None
+if today_is == 1:
+    day_of_the_week = "Sunday"
+elif today_is == 2:
+    day_of_the_week = "Monday"
+elif today_is == 3:
+    day_of_the_week = "Tuesday"
+elif today_is == 4:
+    day_of_the_week = "Wednesday"
+elif today_is == 5:
+    day_of_the_week = "Thursday"
+elif today_is == 6:
+    day_of_the_week = "Friday"
+elif today_is == 7:
+    day_of_the_week = "Saturday"
 # conditionals go here
 ```
 
@@ -51,6 +72,10 @@ Finally, let's take a string and see if it ends with a certain substring. If it 
 string = "Python"
 sub_string = "on"
 ends_with = None
+if string.endswith(sub_string):
+    ends_with = True
+else:
+    ends_with = False
 # conditionals go here
 ```
 
