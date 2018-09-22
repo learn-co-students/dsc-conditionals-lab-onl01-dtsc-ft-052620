@@ -11,7 +11,7 @@ def test_less_than_50():
     assert less_than_50 is not None, "Make sure to set up your conditional so that it re-assigns the value for `less_than_50`"
     assert type(less_than_50) == type(100), "less_than_50 should be a number"
     assert less_than_50 == 49, "Remember to assign the correct vzlue to the variable less_than_50"
-    
+
 def test_is_it_hot():
     assert is_it_hot is not None, "Make sure to set up your conditional so that it re-assigns the value for `is_it_hot`"
     assert type(is_it_hot) == type(""), "is_it_hot should be a String"
@@ -20,7 +20,7 @@ def test_is_it_hot():
 def test_day_of_the_week():
     assert day_of_the_week is not None, "Make sure to set up your conditional so that it re-assigns the value for `day_of_the_week`"
     assert type(day_of_the_week) == type(""), "day_of_the_week should be a String"
-    assert day_of_the_week.lower() == "wdnesday", "Remember to assign the name for the day of the week that corresponds to the number today_is"
+    assert day_of_the_week.lower() == "wednesday", "Remember to assign the name for the day of the week that corresponds to the number today_is"
 
 def test_ends_with():
     assert ends_with is not None, "Make sure to set up your conditional so that it re-assigns the value for `ends_with`"
