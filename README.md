@@ -2,16 +2,17 @@
 # Control Flow: Conditionals - Lab
 
 ## Introduction
-Now that we have been introduced to some difference data types, how to use them, and now conditionals, let's put our knowledge to the test and create some conditional statements that selectively assign values to variables based on whether they pass a certain condition of ours.
+Now that we have been introduced to some different data types, how to use them, and now conditionals, let's put our knowledge to the test and create some conditional statements that selectively assign values to variables based on whether they pass the conditions we set.
 
 ## Objectives
+You will be able to:
 * Understand and use conditionals
 
 ## Instructions
 
 Let's use our knowledge of variables and conditionals to assign values based on different conditions. Follow the instructions below to properly assign the values.
 
-Let's start out with a somewhat already built-out problem. Below use what you know about numbers and conditionals to assign a value to less_than_50 and follow the directions given in the comments below. Use this as a guide to structuring the rest of the problems in this lab.
+With the started code in the cell below, use what you know about numbers and conditionals to assign a value to less_than_50 and follow the directions given in the comments below. Use this as a guide to structuring the rest of the problems in this lab.
 
 
 ```python
