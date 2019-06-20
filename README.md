@@ -12,18 +12,18 @@ You will be able to:
 
 Let's use our knowledge of variables and conditionals to assign values based on different conditions. Follow the instructions below to properly assign the values.
 
-With the started code in the cell below, use what you know about numbers and conditionals to assign a value to less_than_50 and follow the directions given in the comments below. Use this as a guide to structuring the rest of the problems in this lab.
+With the started code in the cell below, use what you know about numbers and conditionals to assign a value to `my_number` and follow the directions given in the comments below. Use this as a guide to structuring the rest of the problems in this lab.
 
 
 ```python
 number_50 = 50
-less_than_50 = None
+my_number = None
 if number_50 > 100:
-    # if number_50 is greater than 100, assign the `less_than_50` variable to the number 100
-elif number_50 < 50:
-    # if number_50 is greater than 50, assign the `less_than_50` variable to the number 50
+    # if number_50 is greater than 100, assign the `my_number` variable to the number 100
+elif number_50 > 50:
+    # if number_50 is greater than 50, assign the `my_number` variable to the number 50
 else:
-    # else assign the `less_than_50` variable to 49
+    # else assign the `my_number` variable to 0
 ```
 
 Below, use conditionals to tell whether it is hot outside or not. If it is hot, assign the string `"It is so hot out!"` to the variable `is_it_hot`. If it is not hot, assign the string `"This is nothing! Bring on the heat."`. For our purposes, anything over `80` degrees is considered hot.
