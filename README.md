@@ -33,7 +33,7 @@ Below, use conditionals to tell whether it is hot outside or not. If it is hot, 
 
 
 ```python
-temperature = 89
+temperature = 85
 is_it_hot = None
 if temperature > 80:
     is_it_hot = "It is so hot out!"
