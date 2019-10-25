@@ -6,7 +6,7 @@ Now that you have been introduced to conditionals, let's put your knowledge to t
 
 ## Objectives
 You will be able to:
-* Understand and use conditionals
+* Use Python conditional statements
 
 ## Instructions
 
