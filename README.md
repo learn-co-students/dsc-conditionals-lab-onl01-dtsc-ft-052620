@@ -2,17 +2,17 @@
 # Control Flow: Conditionals - Lab
 
 ## Introduction
-Now that we have been introduced to some different data types, how to use them, and now conditionals, let's put our knowledge to the test and create some conditional statements that selectively assign values to variables based on whether they pass the conditions we set.
+Now that you have been introduced to conditionals, let's put your knowledge to test and create some conditional statements that selectively assign values to variables based on whether they pass the conditions we set.
 
 ## Objectives
 You will be able to:
-* Understand and use conditionals
+* Use Python conditional statements
 
 ## Instructions
 
 Let's use our knowledge of variables and conditionals to assign values based on different conditions. Follow the instructions below to properly assign the values.
 
-With the started code in the cell below, use what you know about numbers and conditionals to assign a value to `my_number` and follow the directions given in the comments below. Use this as a guide to structuring the rest of the problems in this lab.
+With the given code in the cell below, use what you know about numbers and conditionals to assign a value to `my_number` and follow the directions given in the comments below. Use this as a guide to structuring the rest of the problems in this lab.
 
 
 ```python
@@ -45,7 +45,7 @@ day_of_the_week = None
 # conditionals go here
 ```
 
-Finally, let's take a string and see if it ends with a certain substring. If it does, assign the variable `ends_with` to either `True` or `False`. For example, we have the string "School" and we want to know if it ends with the sub-string "cool". In this case it does not, so, we would assign `False` to the variable `ends_with`. 
+Finally, let's take a string and see if it ends with a certain substring. If it does, assign the variable `ends_with` to `True`, and if it does not, assign it to `False`. For example, if have the string "School" and we want to know if it ends with the sub-string "cool". In this case it does not, so, we would assign `False` to the variable `ends_with`. 
 
 
 ```python
